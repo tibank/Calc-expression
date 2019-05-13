@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <config>
+    <Calculator Validator="Simple" Parser="Simple" Evaluator="ReversePoland" FileOper="oper.txt" DirExpression="Expression"></Calculator>
+    <Mailer>
+      <POP3 server="pop.gmail.com" port="995" SSL="1" user="xxxx" password="xxxx"></POP3>
+      <SMTP server="smtp.gmail.com" port="465" SSL="1" user="xxxx@gmail.com" password="xxxx"></SMTP>
+      <IMAP server="imap.gmail.com" port="993" SSL="1" user="xxxx@gmail.com" password="xxxx"></IMAP>
+    </Mailer>
+  </config>
+  <config>
+    <Calculator Validator="Simple" Parser="Simple" Evaluator="ReversePoland" DirExpression="Expression" FileOper="oper.txt"></Calculator>
+    <Mailer>
+      <POP3 server="" port="" SSL="" user="" password=""></POP3>
+      <SMTP server="smtp.ukr.net" port="465" SSL="1" user="xxxx@ukr.net" password="xxxx"></SMTP>
+      <IMAP server="imap.ukr.net" port="993" SSL="1" user="xxxx@ukr.net" password="xxxx"></IMAP>
+    </Mailer>
+  </config>
+</configs>
